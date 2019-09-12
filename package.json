@@ -1,0 +1,19 @@
+{
+  "name": "renta-sec-censal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:links": "node index.js",
+    "build:download": "bash download.sh",
+    "build": "npm run build:links && npm run build:download",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
+}
