@@ -1,5 +1,7 @@
 # renta-secciones-censales
 
+This is a parser for a new [income dataset by census tract](https://www.ine.es/experimental/atlas/exp_atlas_tab.htm) released by the Spanish Statistics Institute.
+
 ## Getting started
 First, install the dependencies
 
